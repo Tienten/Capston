@@ -3,7 +3,7 @@ Recent advancements in deep learning, especially the application of Convolutiona
 - [Link to Paper](https://earlham.box.com/s/su3w266tzwnk41u6yfppws3c73ekm8aq)
 - [Link to Video](https://youtu.be/lDucrkou2SA)
 # Data Architecture Diagram
-![image](imgs/Tien - data architecture diagram-4.jpg)
+![image](imgs/Tien - data architecture diagram-4.png)
 
 # Package
 Required packages to run the program:
