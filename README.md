@@ -2,6 +2,8 @@
 Recent advancements in deep learning, especially the application of Convolutional Neural Networks (CNNs), have guided significant progress in Facial Emotion Recognition (FER). CNNs excel at automatically extracting facial features, leading to the development of robust FER systems. Deep Convolutional Neural Networks (DCNNs) have further elevated FER capabilities, outperforming traditional CNNs. However, DCNNs still face a limitation concerning their demand for high-dimensional datasets. To address this constraint, this paper proposes an ensemble model combining Self-Cure Network (SCN) with DCNN, bolstered by transfer learning.
 - [Link to Paper](https://earlham.box.com/s/su3w266tzwnk41u6yfppws3c73ekm8aq)
 - [Link to Video](https://youtu.be/lDucrkou2SA)
+# Data Architecture Diagram
+![image](imgs/Tien - data architecture diagram-4.jpg)
 
 # Package
 Required packages to run the program:
