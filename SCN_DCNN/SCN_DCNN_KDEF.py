@@ -6,7 +6,6 @@ from torchvision import transforms, datasets
 import cv2
 import torch.nn.functional as F
 from torch.autograd import Variable
-import pandas as pd
 import os ,torch
 import torch.nn as nn
 import image_utils
