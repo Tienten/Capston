@@ -1,0 +1,140 @@
+queue/partition is batch
+running on h3
+work directory is /cluster/home/ttphan21/Capstone
+/mounts/hamilton/software/anaconda3/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mounts/hamilton/software/anaconda3/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/mounts/hamilton/software/anaconda3/envs/py39/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:139: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Epoch 0/24
+----------
+train Loss: 1.7130 Acc: 0.3387
+test Loss: 1.3724 Acc: 0.4958
+
+Epoch 1/24
+----------
+train Loss: 1.4671 Acc: 0.4370
+test Loss: 1.3217 Acc: 0.5079
+
+Epoch 2/24
+----------
+train Loss: 1.3827 Acc: 0.4718
+test Loss: 1.1137 Acc: 0.5972
+
+Epoch 3/24
+----------
+train Loss: 1.3235 Acc: 0.4957
+test Loss: 1.0911 Acc: 0.6057
+
+Epoch 4/24
+----------
+train Loss: 1.2901 Acc: 0.5119
+test Loss: 1.4783 Acc: 0.4539
+
+Epoch 5/24
+----------
+train Loss: 1.2530 Acc: 0.5249
+test Loss: 1.2304 Acc: 0.5545
+
+Epoch 6/24
+----------
+train Loss: 1.1440 Acc: 0.5661
+test Loss: 0.9803 Acc: 0.6428
+
+Epoch 7/24
+----------
+train Loss: 1.1202 Acc: 0.5768
+test Loss: 0.9769 Acc: 0.6388
+
+Epoch 8/24
+----------
+train Loss: 1.1064 Acc: 0.5810
+test Loss: 0.9759 Acc: 0.6463
+
+Epoch 9/24
+----------
+train Loss: 1.0980 Acc: 0.5846
+test Loss: 0.9574 Acc: 0.6521
+
+Epoch 10/24
+----------
+train Loss: 1.0918 Acc: 0.5892
+test Loss: 0.9661 Acc: 0.6486
+
+Epoch 11/24
+----------
+train Loss: 1.0824 Acc: 0.5886
+test Loss: 0.9559 Acc: 0.6507
+
+Epoch 12/24
+----------
+train Loss: 1.0786 Acc: 0.5892
+test Loss: 0.9535 Acc: 0.6520
+
+Epoch 13/24
+----------
+train Loss: 1.0654 Acc: 0.5969
+test Loss: 0.9453 Acc: 0.6541
+
+Epoch 14/24
+----------
+train Loss: 1.0568 Acc: 0.6011
+test Loss: 0.9453 Acc: 0.6524
+
+Epoch 15/24
+----------
+train Loss: 1.0548 Acc: 0.5998
+test Loss: 0.9423 Acc: 0.6545
+
+Epoch 16/24
+----------
+train Loss: 1.0524 Acc: 0.6013
+test Loss: 0.9402 Acc: 0.6527
+
+Epoch 17/24
+----------
+train Loss: 1.0568 Acc: 0.6002
+test Loss: 0.9418 Acc: 0.6548
+
+Epoch 18/24
+----------
+train Loss: 1.0574 Acc: 0.5997
+test Loss: 0.9446 Acc: 0.6544
+
+Epoch 19/24
+----------
+train Loss: 1.0553 Acc: 0.6035
+test Loss: 0.9433 Acc: 0.6558
+
+Epoch 20/24
+----------
+train Loss: 1.0522 Acc: 0.6024
+test Loss: 0.9336 Acc: 0.6581
+
+Epoch 21/24
+----------
+train Loss: 1.0553 Acc: 0.5996
+test Loss: 0.9470 Acc: 0.6560
+
+Epoch 22/24
+----------
+train Loss: 1.0432 Acc: 0.6054
+test Loss: 0.9472 Acc: 0.6573
+
+Epoch 23/24
+----------
+train Loss: 1.0525 Acc: 0.6018
+test Loss: 0.9409 Acc: 0.6553
+
+Epoch 24/24
+----------
+train Loss: 1.0516 Acc: 0.6044
+test Loss: 0.9411 Acc: 0.6560
+
+Training complete in 248m 43s
+Best test Acc: 0.658122
+/cluster/home/ttphan21/Capstone/FER2013_DCNN.py:48: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()
+/cluster/home/ttphan21/Capstone/FER2013_DCNN.py:186: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()

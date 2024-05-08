@@ -1,0 +1,169 @@
+queue/partition is batch
+running on h2
+work directory is /cluster/home/ttphan21/Capstone
+normal model: lr=0.001, momentum = sgd 
+/mounts/hamilton/software/anaconda3/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mounts/hamilton/software/anaconda3/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+data/FER2013/train
+data/FER2013/train/neutral
+data/FER2013/train/happy
+data/FER2013/train/surprise
+data/FER2013/train/fear
+data/FER2013/train/disgust
+data/FER2013/train/sad
+data/FER2013/train/angry
+Train set size: 28709
+data/FER2013/test
+data/FER2013/test/neutral
+data/FER2013/test/happy
+data/FER2013/test/surprise
+data/FER2013/test/fear
+data/FER2013/test/disgust
+data/FER2013/test/sad
+data/FER2013/test/angry
+Validation set size: 7178
+[Epoch 1] Training accuracy: 0.4318. Loss: 1.506
+[Epoch 1] Validation accuracy:0.5729. Loss:1.203
+[Epoch 2] Training accuracy: 0.5323. Loss: 1.249
+[Epoch 2] Validation accuracy:0.6010. Loss:1.099
+[Epoch 3] Training accuracy: 0.5854. Loss: 1.123
+[Epoch 3] Validation accuracy:0.6205. Loss:1.052
+[Epoch 4] Training accuracy: 0.6305. Loss: 1.006
+[Epoch 4] Validation accuracy:0.6411. Loss:1.017
+[Epoch 5] Training accuracy: 0.6694. Loss: 0.900
+[Epoch 5] Validation accuracy:0.6566. Loss:0.954
+[Epoch 6] Training accuracy: 0.7045. Loss: 0.806
+[Epoch 6] Validation accuracy:0.6626. Loss:0.979
+[Epoch 7] Training accuracy: 0.7441. Loss: 0.704
+[Epoch 7] Validation accuracy:0.6528. Loss:0.970
+[Epoch 8] Training accuracy: 0.7830. Loss: 0.605
+[Epoch 8] Validation accuracy:0.6482. Loss:1.123
+[Epoch 9] Training accuracy: 0.8237. Loss: 0.500
+[Epoch 9] Validation accuracy:0.6620. Loss:1.113
+[Epoch 10] Training accuracy: 0.8560. Loss: 0.414
+[Epoch 10] Validation accuracy:0.6513. Loss:1.189
+[Epoch 11] Training accuracy: 0.8135. Loss: 0.617
+[Epoch 11] Validation accuracy:0.6716. Loss:0.969
+[Epoch 12] Training accuracy: 0.8447. Loss: 0.492
+[Epoch 12] Validation accuracy:0.6779. Loss:1.101
+[Epoch 13] Training accuracy: 0.8540. Loss: 0.467
+[Epoch 13] Validation accuracy:0.6776. Loss:1.042
+[Epoch 14] Training accuracy: 0.8720. Loss: 0.415
+[Epoch 14] Validation accuracy:0.6705. Loss:1.051
+[Epoch 15] Training accuracy: 0.8850. Loss: 0.371
+[Epoch 15] Validation accuracy:0.6819. Loss:1.040
+[Epoch 16] Training accuracy: 0.8946. Loss: 0.346
+[Epoch 16] Validation accuracy:0.6776. Loss:1.069
+[Epoch 17] Training accuracy: 0.9061. Loss: 0.320
+[Epoch 17] Validation accuracy:0.6832. Loss:1.065
+[Epoch 18] Training accuracy: 0.9158. Loss: 0.287
+[Epoch 18] Validation accuracy:0.6810. Loss:1.088
+[Epoch 19] Training accuracy: 0.9235. Loss: 0.269
+[Epoch 19] Validation accuracy:0.6753. Loss:1.132
+[Epoch 20] Training accuracy: 0.9295. Loss: 0.253
+[Epoch 20] Validation accuracy:0.6818. Loss:1.177
+[Epoch 21] Training accuracy: 0.9348. Loss: 0.237
+[Epoch 21] Validation accuracy:0.6824. Loss:1.178
+[Epoch 22] Training accuracy: 0.9413. Loss: 0.216
+[Epoch 22] Validation accuracy:0.6810. Loss:1.159
+[Epoch 23] Training accuracy: 0.9462. Loss: 0.199
+[Epoch 23] Validation accuracy:0.6787. Loss:1.170
+[Epoch 24] Training accuracy: 0.9503. Loss: 0.192
+[Epoch 24] Validation accuracy:0.6801. Loss:1.147
+[Epoch 25] Training accuracy: 0.9534. Loss: 0.181
+[Epoch 25] Validation accuracy:0.6811. Loss:1.168
+[Epoch 26] Training accuracy: 0.9551. Loss: 0.174
+[Epoch 26] Validation accuracy:0.6768. Loss:1.201
+[Epoch 27] Training accuracy: 0.9598. Loss: 0.163
+[Epoch 27] Validation accuracy:0.6792. Loss:1.216
+[Epoch 28] Training accuracy: 0.9623. Loss: 0.152
+[Epoch 28] Validation accuracy:0.6818. Loss:1.188
+[Epoch 29] Training accuracy: 0.9610. Loss: 0.159
+[Epoch 29] Validation accuracy:0.6824. Loss:1.211
+[Epoch 30] Training accuracy: 0.9641. Loss: 0.149
+[Epoch 30] Validation accuracy:0.6847. Loss:1.211
+[Epoch 31] Training accuracy: 0.9650. Loss: 0.145
+[Epoch 31] Validation accuracy:0.6790. Loss:1.179
+[Epoch 32] Training accuracy: 0.9667. Loss: 0.140
+[Epoch 32] Validation accuracy:0.6818. Loss:1.190
+[Epoch 33] Training accuracy: 0.9675. Loss: 0.136
+[Epoch 33] Validation accuracy:0.6828. Loss:1.198
+[Epoch 34] Training accuracy: 0.9682. Loss: 0.135
+[Epoch 34] Validation accuracy:0.6831. Loss:1.214
+[Epoch 35] Training accuracy: 0.9692. Loss: 0.129
+[Epoch 35] Validation accuracy:0.6861. Loss:1.204
+[Epoch 36] Training accuracy: 0.9691. Loss: 0.129
+[Epoch 36] Validation accuracy:0.6808. Loss:1.206
+[Epoch 37] Training accuracy: 0.9697. Loss: 0.130
+[Epoch 37] Validation accuracy:0.6811. Loss:1.186
+[Epoch 38] Training accuracy: 0.9712. Loss: 0.124
+[Epoch 38] Validation accuracy:0.6825. Loss:1.212
+[Epoch 39] Training accuracy: 0.9723. Loss: 0.121
+[Epoch 39] Validation accuracy:0.6815. Loss:1.235
+[Epoch 40] Training accuracy: 0.9728. Loss: 0.119
+[Epoch 40] Validation accuracy:0.6845. Loss:1.237
+[Epoch 41] Training accuracy: 0.9726. Loss: 0.117
+[Epoch 41] Validation accuracy:0.6817. Loss:1.225
+[Epoch 42] Training accuracy: 0.9723. Loss: 0.118
+[Epoch 42] Validation accuracy:0.6832. Loss:1.260
+[Epoch 43] Training accuracy: 0.9729. Loss: 0.118
+[Epoch 43] Validation accuracy:0.6801. Loss:1.222
+[Epoch 44] Training accuracy: 0.9735. Loss: 0.115
+[Epoch 44] Validation accuracy:0.6815. Loss:1.240
+[Epoch 45] Training accuracy: 0.9743. Loss: 0.111
+[Epoch 45] Validation accuracy:0.6801. Loss:1.242
+[Epoch 46] Training accuracy: 0.9746. Loss: 0.113
+[Epoch 46] Validation accuracy:0.6811. Loss:1.220
+[Epoch 47] Training accuracy: 0.9730. Loss: 0.114
+[Epoch 47] Validation accuracy:0.6810. Loss:1.234
+[Epoch 48] Training accuracy: 0.9744. Loss: 0.116
+[Epoch 48] Validation accuracy:0.6835. Loss:1.255
+[Epoch 49] Training accuracy: 0.9752. Loss: 0.109
+[Epoch 49] Validation accuracy:0.6825. Loss:1.226
+[Epoch 50] Training accuracy: 0.9752. Loss: 0.109
+[Epoch 50] Validation accuracy:0.6824. Loss:1.238
+[Epoch 51] Training accuracy: 0.9738. Loss: 0.112
+[Epoch 51] Validation accuracy:0.6801. Loss:1.223
+[Epoch 52] Training accuracy: 0.9749. Loss: 0.108
+[Epoch 52] Validation accuracy:0.6832. Loss:1.231
+[Epoch 53] Training accuracy: 0.9744. Loss: 0.110
+[Epoch 53] Validation accuracy:0.6812. Loss:1.229
+[Epoch 54] Training accuracy: 0.9736. Loss: 0.114
+[Epoch 54] Validation accuracy:0.6814. Loss:1.222
+[Epoch 55] Training accuracy: 0.9748. Loss: 0.110
+[Epoch 55] Validation accuracy:0.6824. Loss:1.224
+[Epoch 56] Training accuracy: 0.9746. Loss: 0.107
+[Epoch 56] Validation accuracy:0.6838. Loss:1.220
+[Epoch 57] Training accuracy: 0.9745. Loss: 0.109
+[Epoch 57] Validation accuracy:0.6835. Loss:1.239
+[Epoch 58] Training accuracy: 0.9744. Loss: 0.111
+[Epoch 58] Validation accuracy:0.6811. Loss:1.245
+[Epoch 59] Training accuracy: 0.9734. Loss: 0.115
+[Epoch 59] Validation accuracy:0.6824. Loss:1.264
+[Epoch 60] Training accuracy: 0.9723. Loss: 0.122
+[Epoch 60] Validation accuracy:0.6832. Loss:1.232
+[Epoch 61] Training accuracy: 0.9755. Loss: 0.107
+[Epoch 61] Validation accuracy:0.6845. Loss:1.236
+[Epoch 62] Training accuracy: 0.9756. Loss: 0.103
+[Epoch 62] Validation accuracy:0.6806. Loss:1.219
+[Epoch 63] Training accuracy: 0.9761. Loss: 0.103
+[Epoch 63] Validation accuracy:0.6812. Loss:1.225
+[Epoch 64] Training accuracy: 0.9740. Loss: 0.112
+[Epoch 64] Validation accuracy:0.6789. Loss:1.217
+[Epoch 65] Training accuracy: 0.9726. Loss: 0.119
+[Epoch 65] Validation accuracy:0.6846. Loss:1.217
+[Epoch 66] Training accuracy: 0.9749. Loss: 0.112
+[Epoch 66] Validation accuracy:0.6818. Loss:1.237
+[Epoch 67] Training accuracy: 0.9759. Loss: 0.106
+[Epoch 67] Validation accuracy:0.6812. Loss:1.221
+[Epoch 68] Training accuracy: 0.9752. Loss: 0.105
+[Epoch 68] Validation accuracy:0.6821. Loss:1.226
+[Epoch 69] Training accuracy: 0.9748. Loss: 0.107
+[Epoch 69] Validation accuracy:0.6838. Loss:1.201
+[Epoch 70] Training accuracy: 0.9745. Loss: 0.111
+[Epoch 70] Validation accuracy:0.6822. Loss:1.240
+Best test Acc: 0.686100
+Training accuracy:  [0.4318, 0.5323, 0.5854, 0.6305, 0.6694, 0.7045, 0.7441, 0.783, 0.8237, 0.856, 0.8135, 0.8447, 0.854, 0.872, 0.885, 0.8946, 0.9061, 0.9158, 0.9235, 0.9295, 0.9348, 0.9413, 0.9462, 0.9503, 0.9534, 0.9551, 0.9598, 0.9623, 0.961, 0.9641, 0.965, 0.9667, 0.9675, 0.9682, 0.9692, 0.9691, 0.9697, 0.9712, 0.9723, 0.9728, 0.9726, 0.9723, 0.9729, 0.9735, 0.9743, 0.9746, 0.973, 0.9744, 0.9752, 0.9752, 0.9738, 0.9749, 0.9744, 0.9736, 0.9748, 0.9746, 0.9745, 0.9744, 0.9734, 0.9723, 0.9755, 0.9756, 0.9761, 0.974, 0.9726, 0.9749, 0.9759, 0.9752, 0.9748, 0.9745]
+Testing accuracy:  [0.5729, 0.601, 0.6205, 0.6411, 0.6566, 0.6626, 0.6528, 0.6482, 0.662, 0.6513, 0.6716, 0.6779, 0.6776, 0.6705, 0.6819, 0.6776, 0.6832, 0.681, 0.6753, 0.6818, 0.6824, 0.681, 0.6787, 0.6801, 0.6811, 0.6768, 0.6792, 0.6818, 0.6824, 0.6847, 0.679, 0.6818, 0.6828, 0.6831, 0.6861, 0.6808, 0.6811, 0.6825, 0.6815, 0.6845, 0.6817, 0.6832, 0.6801, 0.6815, 0.6801, 0.6811, 0.681, 0.6835, 0.6825, 0.6824, 0.6801, 0.6832, 0.6812, 0.6814, 0.6824, 0.6838, 0.6835, 0.6811, 0.6824, 0.6832, 0.6845, 0.6806, 0.6812, 0.6789, 0.6846, 0.6818, 0.6812, 0.6821, 0.6838, 0.6822]
